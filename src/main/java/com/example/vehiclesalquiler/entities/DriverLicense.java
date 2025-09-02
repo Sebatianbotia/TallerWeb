@@ -24,6 +24,6 @@ public class DriverLicense {
     private java.time.LocalDate expiresAt;
 
     @OneToOne(mappedBy = "driverLicense")
-    private User user;
+    private Usuario usuario;
 
 }
